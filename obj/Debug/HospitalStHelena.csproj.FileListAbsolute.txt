@@ -1,0 +1,56 @@
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\HospitalStHelena.exe.config
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\HospitalStHelena.exe
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\HospitalStHelena.pdb
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.AssemblyReference.cache
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.FrmMenu.resources
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.Properties.Resources.resources
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.GenerateResource.cache
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.CoreCompileInputs.cache
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.exe
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.pdb
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\MySqlConnector.dll
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Buffers.dll
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Memory.dll
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\MySqlConnector.xml
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Buffers.xml
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Memory.xml
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\delle\source\repos\HospitalStHelena\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.fmCargos.resources
+C:\Users\delle\source\repos\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.CopyComplete
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\HospitalStHelena.exe.config
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\HospitalStHelena.exe
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\HospitalStHelena.pdb
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\MySqlConnector.dll
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Buffers.dll
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Memory.dll
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\MySqlConnector.xml
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Buffers.xml
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Memory.xml
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.AssemblyReference.cache
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.fmCargos.resources
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.FrmMenu.resources
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.Properties.Resources.resources
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.GenerateResource.cache
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.CoreCompileInputs.cache
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.CopyComplete
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.exe
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.pdb
