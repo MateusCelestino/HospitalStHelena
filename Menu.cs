@@ -24,5 +24,11 @@ namespace HospitalStHelena
             //test
             cargos.ShowDialog();
         }
+
+        private void funcioáriosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cadastra funcianrio = new Cadastra();
+            funcianrio.ShowDialog();
+        }
     }
 }

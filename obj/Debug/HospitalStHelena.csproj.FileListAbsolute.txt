@@ -54,3 +54,4 @@ C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStH
 C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.csproj.CopyComplete
 C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.exe
 C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.pdb
+C:\Users\delle\OneDrive\Área de Trabalho\HospitalStHelena\obj\Debug\HospitalStHelena.Cadastra.resources

@@ -17,25 +17,18 @@ namespace HospitalStHelena
         public Cadastra()
         {
             InitializeComponent();
-            conexaoDB = new ConexaoDB();
-            //ssa
+            conexaoDB = new ConexaoDB();           
         }
 
         private void btnCadastro_Click(object sender, EventArgs e)
         {
-            string id = txtId.Text;
             string nome = txtNome.Text;
             string data_nascimento = txtDataNasceu.Text;
             string cpf = txtCpf.Text;
             string email = txtEmail.Text;
-            string senha = txtSenha.Text;
+            string senha = txtSenha.Text;      
             string cargo_id = txt_cargo_id.Text;
 
-            if(id. >)
-            {
-
-            }
-            
             if (nome.Length > 255)
             {
                 MessageBox.Show("O comprimento máximo do texto é 255 caracteres");
@@ -47,9 +40,10 @@ namespace HospitalStHelena
                 MessageBox.Show("O titulo não pode ficar em branco");
                 return;
             }
-            if (data_nascimento. >)
+            if (data_nascimento == "")
             {
-
+                MessageBox.Show("O titulo não pode ficar em branco");
+                return;
             }
             if (cpf.Length > 11)
             {
@@ -65,20 +59,21 @@ namespace HospitalStHelena
             {
                 MessageBox.Show("O comprimento máximo do texto é 10 caracteres");
                 return;
-            }
-            if (cargo_id. >)
+            }  
+            if (cargo_id == "")
             {
-
+                MessageBox.Show("O titulo não pode ficar em branco");
+                return;
             }
 
             // Cria um dicionário com os parametros.
             var parametros = new Dictionary<string, object> {
-                { "id", id },
                 { "nome", nome},
                 { "data  nascimento", data_nascimento},
                 { "cpf", cpf},
                 { "email", email},
-                { "senha", senha}
+                { "senha", senha},
+                { "cargo_id", cargo_id}
             };
             bool resultado = conexaoDB.Inserir2("funcionario", parametros);
 
@@ -97,12 +92,17 @@ namespace HospitalStHelena
 
         private void Cadastra_Load(object sender, EventArgs e)
         {
+         
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
             var resultado = MessageBox.Show
-            (
-                "Deseja cancelar o cadastro?",
-                "Cancelando cadastro",
-                MessageBoxButtons.YesNo
-            );
+         (
+             "Deseja cancelar o cadastro?",
+             "Cancelando cadastro",
+             MessageBoxButtons.YesNo
+         );
 
             if (resultado == DialogResult.Yes)
             {

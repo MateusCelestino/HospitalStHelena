@@ -57,15 +57,16 @@
             // cargosToolStripMenuItem
             // 
             this.cargosToolStripMenuItem.Name = "cargosToolStripMenuItem";
-            this.cargosToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.cargosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cargosToolStripMenuItem.Text = "Cargos";
             this.cargosToolStripMenuItem.Click += new System.EventHandler(this.cargosToolStripMenuItem_Click);
             // 
             // funcioáriosToolStripMenuItem
             // 
             this.funcioáriosToolStripMenuItem.Name = "funcioáriosToolStripMenuItem";
-            this.funcioáriosToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.funcioáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.funcioáriosToolStripMenuItem.Text = "Funcioários";
+            this.funcioáriosToolStripMenuItem.Click += new System.EventHandler(this.funcioáriosToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
