@@ -18,6 +18,7 @@ namespace HospitalStHelena
         {
             InitializeComponent();
             conexaoDB = new ConexaoDB();
+            //ss
         }
 
         private void btnCadastro_Click(object sender, EventArgs e)
