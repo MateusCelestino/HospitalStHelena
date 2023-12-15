@@ -28,7 +28,7 @@ namespace HospitalStHelena
         }
 
         private async void conectar()
-        {   
+        {
             // Passa os dados de conexão para o MysqlConnector
             conexao = new MySqlConnection(builder.ConnectionString);
 
@@ -67,7 +67,7 @@ namespace HospitalStHelena
 
                     if (linhasAfetadas > 0)
                     {
-                       return true;
+                        return true;
                     }
                     else
                     {
@@ -80,7 +80,49 @@ namespace HospitalStHelena
                     return false;
                 }
 
-            }                
+            }
+        }
+        public bool Inserir2(string tabela, Dictionary<string, object> parametros)
+        {
+            using (var comando = new MySqlCommand())
+            {
+                // Define em qual coneão vai ser executado o comando
+                comando.Connection = this.conexao;
+                //Cria a SQL que vai ser executada;
+
+                string camposTabela = string.Join(",", parametros.Keys);
+
+                IEnumerable<string> parametrosString = parametros.Keys.Select(chave => "@" + chave);
+                string chavesComArroba = string.Join(",", parametrosString);
+
+                comando.CommandText = $"INSERT INTO {tabela} ({camposTabela}) VALUES ({chavesComArroba})";
+
+                foreach (var key in parametros.Keys)
+                {
+                    comando.Parameters.AddWithValue(key, parametros[key]);
+                }
+                try
+                {
+                    int linhasAfetadas = comando.ExecuteNonQuery();
+
+                    if (linhasAfetadas > 0)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                    return false;
+                }
+            }
         }
     }
 }
+
+
+

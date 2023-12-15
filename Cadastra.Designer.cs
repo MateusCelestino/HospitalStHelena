@@ -201,6 +201,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Cadastra";
             this.Text = "Cadastra";
+            this.Load += new System.EventHandler(this.Cadastra_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
