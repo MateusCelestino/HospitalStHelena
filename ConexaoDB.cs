@@ -46,40 +46,40 @@ namespace HospitalStHelena
 
                 string camposTabela = string.Join(",", parametros.Keys);
 
-                IEnumerable<string> chavesModificadas = parametros.Keys.Select(chave => "@" + chave);
-                string chavesComArroba = string.Join(",", parametrosString)
+                IEnumerable<string> parametrosString = parametros.Keys.Select(chave => "@" + chave);
+                string chavesComArroba = string.Join(",", parametrosString);
 
 
-                comando.CommandText = $"INSERT INTO {tabela}{camposTabela} (titulo, descricao) VALUE (@titulo, @descricao)";
+                comando.CommandText = $"INSERT INTO {tabela} ({camposTabela}) VALUES ({chavesComArroba})";
 
                 // Adiciona os valores aos parameters
-                foreach (var item in parametros.Keys)
+                foreach (var key in parametros.Keys)
                 {
-                    comando.Parameters.AddWithValue(Key)
-            }
+                    comando.Parameters.AddWithValue(key, parametros[key]);
+                }
 
 
                 // Executa o comando
-                int linhasFetadas = await comando.ExecuteNonQueryAsync();
+
                 try
                 {
+                    int linhasAfetadas = comando.ExecuteNonQuery();
 
-                    if (linhasFetadas > 0)
+                    if (linhasAfetadas > 0)
                     {
-                        MessageBox.Show("Salvo com sucesso!");
-                        // Fecha o Formulário
-                        this.Close();
+                       return true;
                     }
                     else
                     {
-                        MessageBox.Show("Houve um problema na hora de salvar");
+                        return false;
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Erro greve! \n" + ex.ToString());
+                    Console.WriteLine(ex.ToString());
+                    return false;
                 }
-                return false;
+
             }                
         }
     }

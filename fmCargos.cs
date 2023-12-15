@@ -54,57 +54,42 @@ namespace HospitalStHelena
             string titulo = txtTitulo.Text;
             string descricao = txtDescricao.Text;
 
-            if(titulo.Length > 255)
+            if (titulo.Length > 255)
             {
                 MessageBox.Show("O comprimento máximo do texto é 255 caracteres");
                 return;
             }
 
-            if(titulo == "")
+            if (titulo == "")
             {
                 MessageBox.Show("O titulo não pode ficar em branco");
                 return;
             }
 
-            if(descricao.Length > 255)
+            if (descricao.Length > 255)
             {
                 MessageBox.Show("O comprimento máximo do descrção é 255 caracteres");
                 return;
             }
 
-            // Cria uma nova instancia de comando do Mysql
-            using(var comando = new MySqlCommand())
-            {
-                // Define em qual coneão vai ser executado o comando
-                comando.Connection = conexaoDB.conexao;
-                //Cria a SQL que vai ser executada;
-                comando.CommandText = "INSERT INTO cargos (titulo, descricao) VALUE (@titulo, @descricao)";
-                
-                // Adiciona os valores aos parameters
-                comando.Parameters.AddWithValue("titulo", titulo);
-                comando.Parameters.AddWithValue("descricao", descricao);
-               
-                // Executa o comando
-                int linhasFetadas = await comando.ExecuteNonQueryAsync();
-                try
+            // Cria um dicionário com os parametros.
+            var parametros = new Dictionary<string, object> {
+                { "titulo", titulo },
+                { "descricao", descricao }
+            };
+
+            bool resultado = conexaoDB.Inserir("cargos", parametros);
+
+            // Verifica se deu certo
+                if (resultado)
                 {
-                    //tes
-                    if (linhasFetadas > 0)
-                    {
-                        MessageBox.Show("Salvo com sucesso!");
-                        // Fecha o Formulário
-                        this.Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Houve um problema na hora de salvar");
-                    }
+                    MessageBox.Show("Salvo com sucesso!");
+                    this.Close();
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show("Erro greve! \n" + ex.ToString());
-                }
-            }
+                    MessageBox.Show("Erro ao salvar");
+                }            
 
         }
     }
